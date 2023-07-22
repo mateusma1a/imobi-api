@@ -1,0 +1,8 @@
+{
+    "verbose": true,
+    "testMatch": [
+      "**/tests/**/*.test.js",
+      "**/tests/**/*.spec.js"
+    ]
+  }
+  

@@ -1,0 +1,40 @@
+{
+  "name": "imobi-api",
+  "version": "1.0.0",
+  "description": "API to the Imobi-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "nodemon  -L index.js",
+    "start-dev": "./node_modules/nodemon/bin/nodemon.js .",
+    "build": "npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mateussm99@bitbucket.org/mateussm99/imobi-api.git"
+  },
+  "author": "Mateus Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/mateussm99/imobi-api/issues"
+  },
+  "homepage": "https://bitbucket.org/mateussm99/imobi-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.3.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}
